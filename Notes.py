@@ -26,4 +26,3 @@ print (bool(1))
 is_cool = True
 is_cool = False
 
-#Comments in Python 
