@@ -35,3 +35,8 @@ print('New appended basket:', new_basket)
 basket.insert(4, 'parth')
 updated_basket = basket
 print('Updated basket:', updated_basket)
+
+#extend() : Add the elements of a list (or any iterable), to the end of the current list
+basket.extend(['abhi', 'vaidehi'])
+extended_basket = basket
+print('Extended basket:', extended_basket)
