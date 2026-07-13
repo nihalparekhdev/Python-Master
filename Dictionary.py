@@ -69,6 +69,10 @@ print('User2 after popping last item:', user2)
 user.update({'age': 35, 'city': 'Los Angeles'})
 print('User after update:', user)
 
+#if any key is not present in the dictionary, it will be added to the dictionary
+user.update({'country': 'USA'})
+print('User after adding country:', user)
+
 #Clearing a dictionary
 user.clear()
 print('User after clearing:', user)
