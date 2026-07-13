@@ -40,3 +40,32 @@ print('Updated basket:', updated_basket)
 basket.extend(['abhi', 'vaidehi'])
 extended_basket = basket
 print('Extended basket:', extended_basket)
+
+#remove() : Removes the first item with the specified value
+basket.remove('abhi')
+removed_basket = basket
+print('Removed basket:', removed_basket)
+
+#pop() : Removes the element at the specified position
+basket.pop(0)
+popped_basket = basket
+print('Popped basket:', popped_basket)
+
+#clear() : Removes all the elements from the list
+basket.clear()
+cleared_basket = basket
+print('Cleared basket:', cleared_basket)
+
+#index() : Returns the index of the first element with the specified value
+basket = ['apple', 'banana', 'cherry', 'date', 'fig', 'grape']
+index_of_cherry = basket.index('cherry')
+print('Index of cherry:', index_of_cherry)
+
+#count() : Returns the number of elements with the specified value
+basket = ['apple', 'banana', 'cherry', 'date', 'fig', 'grape', 'banana']
+count_of_banana = basket.count('banana')
+print('Count of banana:', count_of_banana)
+
+
+
+
